@@ -7,6 +7,7 @@ terraform {
     }
 }
 
+
 provider "local" { }
 
     resource "local_file" "k3s_install_script" {
